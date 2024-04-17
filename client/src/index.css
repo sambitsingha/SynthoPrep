@@ -7,3 +7,22 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.hero {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.text-gradient {
+	background: #0bcf7f;
+	background: linear-gradient(to right, #0bcf7f 0%, #0d7dcf 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.gradient {
+	background: #0bcf7f;
+	background: linear-gradient(to right, #0bcf7f 0%, #0d7dcf 100%);
+}
