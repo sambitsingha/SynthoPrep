@@ -7,7 +7,7 @@ const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className='flex items-center justify-around m-3 gap-32'>
+		<div className='flex items-center justify-around p-3 gap-32'>
 			<img src={logo} alt='' className='md:w-80 w-40' />
 			<div className='relative sm:hidden md:hidden block'>
 				<button onClick={() => setIsOpen(!isOpen)}>
