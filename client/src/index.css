@@ -8,7 +8,11 @@
 	box-sizing: border-box;
 }
 
-.hero {
+html {
+	scroll-snap-type: y mandatory;
+	scroll-behavior: smooth;
+}
+.hero-text {
 	font-family: "Oswald", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 700;
@@ -27,7 +31,25 @@
 	background: linear-gradient(to right, #0bcf7f 0%, #0d7dcf 100%);
 }
 
-.hero {
+.bg {
 	background-image: url(https://backgroundabstract.com/wp-content/uploads/edd/2022/02/5594016-e1656071131636.jpg);
 	background-size: cover;
+	height: 100vh;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #3e3e3e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #3e3e3e;
 }
