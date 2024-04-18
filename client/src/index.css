@@ -26,3 +26,8 @@
 	background: #0bcf7f;
 	background: linear-gradient(to right, #0bcf7f 0%, #0d7dcf 100%);
 }
+
+.hero {
+	background-image: url(https://backgroundabstract.com/wp-content/uploads/edd/2022/02/5594016-e1656071131636.jpg);
+	background-size: cover;
+}
