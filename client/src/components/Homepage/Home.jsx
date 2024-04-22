@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./Hero";
 import About from "./About";
+import Catalog from "./Catalog";
 const Home = () => {
 	return (
 		<>
@@ -9,6 +10,9 @@ const Home = () => {
 			</section>
 			<section className='h-screen snap-center'>
 				<About />
+			</section>
+			<section className='h-screen snap-center'>
+				<Catalog />
 			</section>
 		</>
 	);
