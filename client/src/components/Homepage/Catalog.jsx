@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowTrendDown } from "@fortawesome/free-solid-svg-icons";
 const Catalog = () => {
 	return (
-		<div>
+		<div className='h-screen bg'>
 			<button className='uppercase font-semibold m-10 text-xl px-10'>
 				Catalog{" "}
 				<FontAwesomeIcon icon={faArrowTrendDown} className='text-sky-600' />
@@ -14,18 +14,20 @@ const Catalog = () => {
 			<hr className='h-[2px] w-11/12 m-auto my-16 bg-gray-900' />
 			<div className='fleex flex-col justify-center items-center'>
 				<div className='flex justify-around items-start'>
-					<h1 className='text-5xl hero-text uppercase'>free</h1>
+					<h1 className='text-7xl hero-text uppercase'>free</h1>
 					<div>
-						<h1 className='text-3xl hero-text mb-5'>Perks:</h1>
+						<h1 className='text-4xl hero-text mb-5 uppercase text-center'>
+							Perks
+						</h1>
 						<ul>
-							<li>Free access to all courses</li>
+							<li>Get access to AI model</li>
 							<li>Free access to all quizzes</li>
 							<li>Free access to all projects</li>
 						</ul>
 					</div>
 					<div>
-						<p>Duration</p>
-						<h1>Life Time</h1>
+						<p className='text-4xl hero-text uppercase'>Duration</p>
+						<h1 className='text-2xl hero-text text-center mt-5'>Life Time</h1>
 					</div>
 				</div>
 			</div>

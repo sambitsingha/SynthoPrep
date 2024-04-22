@@ -8,7 +8,7 @@ const Home = () => {
 			<section className='h-screen snap-center'>
 				<Hero />
 			</section>
-			<section className='h-screen snap-center'>
+			<section className='h-screen snap-center about'>
 				<About />
 			</section>
 			<section className='h-screen snap-center'>
