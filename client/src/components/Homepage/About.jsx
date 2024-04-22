@@ -15,7 +15,7 @@ const About = () => {
 					<span className='line-3'>your prep with Our</span>{" "}
 					<span className='line-4'>Advanced AI model.</span>
 				</h1>
-				<p className='float-right w-1/3'>
+				<p className='line-4 float-right w-1/3'>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
 					assumenda voluptate fugiat eveniet dicta, aliquid beatae tenetur
 					aperiam impedit porro tempora earum expedita repellat doloribus
