@@ -32,7 +32,7 @@ html {
 }
 
 .bg {
-	background-image: url(https://backgroundabstract.com/wp-content/uploads/edd/2022/02/5594016-e1656071131636.jpg);
+	background-image: url(./assets/bg.jpg);
 	background-size: cover;
 	height: 100vh;
 }
