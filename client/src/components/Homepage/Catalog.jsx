@@ -12,17 +12,19 @@ const Catalog = () => {
 				Choose your <span className='text-gradient'>path</span>
 			</h1>
 			<hr className='h-[2px] w-11/12 m-auto my-16 bg-gray-900' />
-			<div className='fleex flex-col justify-center items-center'>
-				<div className='flex justify-around items-start'>
+			<div className='flex flex-col'>
+				<div className='flex justify-center items-start'>
 					<h1 className='text-7xl hero-text uppercase'>free</h1>
-					<div>
+					<div className='flex flex-col justify-center items-center'>
 						<h1 className='text-4xl hero-text mb-5 uppercase text-center'>
 							Perks
 						</h1>
-						<ul>
-							<li>Get access to AI model</li>
-							<li>Free access to all quizzes</li>
-							<li>Free access to all projects</li>
+						<ul className='text-2xl w-2/3 text-center'>
+							<li className='mb-5'>Get access to our AI model</li>
+							<li>
+								Get access to the Community where you can connect with fellow
+								students and mentors
+							</li>
 						</ul>
 					</div>
 					<div>
