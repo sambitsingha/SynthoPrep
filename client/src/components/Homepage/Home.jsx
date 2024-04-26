@@ -9,13 +9,13 @@ const Home = () => {
 			<section className='h-screen snap-center'>
 				<Hero />
 			</section>
-			<section className='h-screen snap-center about'>
+			<section className='h-screen snap-center' id='about'>
 				<About />
 			</section>
 			<section className='h-screen snap-center'>
 				<Catalog />
 			</section>
-			<section className='h-screen snap-center'>
+			<section className='snap-center'>
 				<Footer />
 			</section>
 		</>
