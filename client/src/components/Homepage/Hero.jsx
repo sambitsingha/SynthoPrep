@@ -9,7 +9,7 @@ const Hero = () => {
 					<span className='line-1 sm:pl-10 lg:pl-16 text-4xl sm:text-5xl md:text-6xl lg:text-8xl uppercase text-center sm:text-left'>
 						Learn
 					</span>
-					<span className='line-2 uppercase text-9xl lg:text-[16rem] text-center'>
+					<span className='line-2 uppercase text-8xl lg:text-[16rem] text-center'>
 						The <span className='text-gradient'>Future</span>
 					</span>
 					<span className='line-3 mb-2 sm:pr-10 lg:pr-16 uppercase text-5xl md:text-6xl lg:text-8xl text-center sm:text-right'>
