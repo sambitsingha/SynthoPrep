@@ -9,7 +9,7 @@ const About = () => {
 				<FontAwesomeIcon icon={faArrowTrendDown} className='text-sky-600' />
 			</button>
 			<div className='mx-4 md:mx-20 md:px-10'>
-				<h1 className='text-4xl md:text-8xl hero-text text-center md:text-left uppercase '>
+				<h1 className='text-4xl md:text-7xl hero-text text-center md:text-left uppercase '>
 					<span className='line-1'>Sharpen your edge with top</span>
 					<span className='line-2'>-tier questions, turbocharge </span>
 					<span className='line-3'>your prep with Our</span>{" "}
