@@ -14,7 +14,7 @@ const Catalog = () => {
 			<hr className='h-[2px] w-11/12 m-auto my-16 bg-gray-900' />
 			<div className='flex flex-col'>
 				<div className='flex justify-center items-start'>
-					<h1 className='line-2 text-7xl hero-text uppercase'>free</h1>
+					<h1 className='line-2 text-5xl hero-text uppercase'>free</h1>
 					<div className='flex flex-col justify-center items-center'>
 						<h1 className='line-2 text-4xl hero-text mb-5 uppercase text-center'>
 							Perks
