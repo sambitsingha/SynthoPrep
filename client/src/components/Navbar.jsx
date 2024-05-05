@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowTrendDown, faBars } from "@fortawesome/free-solid-svg-icons";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -46,7 +46,9 @@ const Navbar = () => {
 				</a>
 			</div>
 			<div className='hidden lg:flex justify-center items-center'>
-				<button className='w-20 font-bold text-xl'>Try out</button>
+				<Link to='/login'>
+					<button className='w-20 font-bold text-xl'>Log In</button>
+				</Link>
 				<FontAwesomeIcon icon={faArrowTrendDown} />
 			</div>
 		</div>
