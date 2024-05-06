@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowTrendDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 const Hero = () => {
 	return (
 		<div>
@@ -23,9 +24,11 @@ const Hero = () => {
 					architecto! Ducimus.
 				</p>
 				<div className='flex justify-center items-center md:justify-start'>
-					<button className='button gradient mx-10 lg:mx-16 uppercase bg-sky-500 my-5 py-2 px-5 lg:py-4 lg:px-10 rounded-3xl text-white text-sm lg:text-xl'>
-						Try For Free <FontAwesomeIcon icon={faArrowTrendDown} />
-					</button>
+					<Link to='/login'>
+						<button className='button gradient mx-10 lg:mx-16 uppercase bg-sky-500 my-5 py-2 px-5 lg:py-4 lg:px-10 rounded-3xl text-white text-sm lg:text-xl'>
+							Try For Free <FontAwesomeIcon icon={faArrowTrendDown} />
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>

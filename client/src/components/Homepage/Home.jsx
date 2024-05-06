@@ -14,12 +14,12 @@ const Home = () => {
 			<section className='h-auto md:h-screen snap-center'>
 				<About />
 			</section>
-			{/* <section className='h-screen snap-center'>
+			<section className='h-screen snap-center'>
 				<Catalog />
 			</section>
 			<section className='snap-center'>
 				<Footer />
-			</section> */}
+			</section>
 		</>
 	);
 };
