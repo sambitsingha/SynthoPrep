@@ -38,9 +38,11 @@ const Navbar = () => {
 				<a href='' className='text-normal text-gray-900 hover:text-purple-500'>
 					About Us
 				</a>
-				<a href='' className='text-normal text-gray-900 hover:text-purple-500'>
-					Dashboard
-				</a>
+				<Link to='/dashboard'>
+					<p className='text-normal text-gray-900 hover:text-purple-500'>
+						Dashboard
+					</p>
+				</Link>
 				<a href='' className='text-normal text-gray-900 hover:text-purple-500'>
 					Contact
 				</a>
