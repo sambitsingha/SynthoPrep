@@ -17,21 +17,27 @@ const Navbar = () => {
 					className={`absolute right-0 w-40 mt-2 py-2 bg-white border rounded shadow-xl ${
 						isOpen ? "block" : "hidden"
 					} z-50 bg-white`}>
-					<a
-						href='#about'
-						className='transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-purple-500 hover:text-white'>
-						About Us
-					</a>
-					<a
-						href=''
-						className='transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-purple-500 hover:text-white'>
-						Dashboard
-					</a>
-					<a
-						href=''
-						className='transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-purple-500 hover:text-white'>
-						Contact
-					</a>
+					<Link to='/about'>
+						<a
+							href='#about'
+							className='transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-purple-500 hover:text-white'>
+							About Us
+						</a>
+					</Link>
+					<Link to='/dashboard'>
+						<a
+							href=''
+							className='transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-purple-500 hover:text-white'>
+							Dashboard
+						</a>
+					</Link>
+					<Link to='/contact'>
+						<a
+							href=''
+							className='transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-purple-500 hover:text-white'>
+							Contact
+						</a>
+					</Link>
 				</div>
 			</div>
 			<div className='hidden md:flex justify-center items-center gap-10 lg:gap-20 text-xl w-full'>
@@ -43,9 +49,13 @@ const Navbar = () => {
 						Dashboard
 					</p>
 				</Link>
-				<a href='' className='text-normal text-gray-900 hover:text-purple-500'>
-					Contact
-				</a>
+				<Link to='/contact'>
+					<a
+						href=''
+						className='text-normal text-gray-900 hover:text-purple-500'>
+						Contact
+					</a>
+				</Link>
 			</div>
 			<div className='hidden lg:flex justify-center items-center'>
 				<Link to='/login'>
