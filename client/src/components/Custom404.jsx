@@ -1,5 +1,23 @@
 import image from "../assets/astro.png";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 const Custom404 = () => {
+	const navigate = useNavigate();
+	const [counter, setCounter] = useState(10);
+
+	useEffect(() => {
+		const timer = setInterval(() => {
+			setCounter((prevCounter) => prevCounter - 1);
+		}, 1000);
+
+		const redirectTimer = setTimeout(() => {
+			navigate("/");
+		}, 10000);
+		return () => {
+			clearTimeout(redirectTimer);
+			clearInterval(timer);
+		};
+	}, [navigate]);
 	return (
 		<>
 			<div className='flex items-center justify-center h-screen w-full bg-404-bg bg-cover text-white md:flex-row flex-col'>
@@ -13,7 +31,9 @@ const Custom404 = () => {
 					<p className='text-xl text-gray-300 font-semibold'>
 						Lets get you ..{" "}
 					</p>
-					<h1 className='my-10 text-xl font-semibold'>Back Home in .. </h1>
+					<h1 className='my-10 text-xl font-semibold'>
+						Back Home in {counter} seconds{" "}
+					</h1>
 				</div>
 				<div>
 					<img
